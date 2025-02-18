@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,14 @@
     "express": "^4.21.2",
     "mysql": "^2.18.1",
     "pg": "^8.13.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aekads/customer_data_add.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aekads/customer_data_add/issues"
+  },
+  "homepage": "https://github.com/aekads/customer_data_add#readme"
 }
